@@ -7,6 +7,7 @@ import org.powermock.modules.junit4.common.internal.impl.JUnit4TestSuiteChunkerI
 
 /**
  *  Purpose of this class to add {@link InterfaceMockClassLoader} to mockTransformer chain.
+ *  Be careful. It's important that package stats from org.powermock.modules.junit4.repacked
  */
 public class CustomJUnit4TestSuiteChunkerImpl extends JUnit4TestSuiteChunkerImpl {
 

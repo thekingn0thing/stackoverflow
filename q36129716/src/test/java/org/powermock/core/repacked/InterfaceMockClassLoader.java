@@ -9,6 +9,7 @@ import org.powermock.core.transformers.impl.MainMockTransformer;
 /**
  *  This transformer transform interfaces to be able mock static method in interfaces which became available since
  *  Java 8.
+ *  Be careful. It's important that package stats from  org.powermock.core
  */
 public class InterfaceMockClassLoader extends MainMockTransformer {
 

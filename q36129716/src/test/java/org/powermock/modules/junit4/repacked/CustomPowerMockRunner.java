@@ -14,6 +14,7 @@ import java.lang.annotation.Annotation;
 
 /**
  * Purpose of this class - create a custom implementation of the {@link JUnit4TestSuiteChunkerImpl}.
+ *  Be careful. It's important that package stats from org.powermock.modules.junit4.repacked
  */
 public class CustomPowerMockRunner extends Runner implements Filterable, Sortable {
 
