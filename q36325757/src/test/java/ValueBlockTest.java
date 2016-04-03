@@ -15,13 +15,13 @@ import static org.powermock.api.mockito.PowerMockito.mock;
 import static org.powermock.api.mockito.PowerMockito.when;
 
 @RunWith(PowerMockRunner.class)
-@PrepareForTest({Type.class, ToplevelPane.class, Environment.class})
+@PrepareForTest({Type.class, Environment.class})
 public class ValueBlockTest {
     private ToplevelPane mockToplevelPane;
 
     @Before
     public void Setup() {
-        mockToplevelPane = mock(ToplevelPane.class);
+        mockToplevelPane = mock(ToplevelPane.class, RETURNS_DEEP_STUBS);
         Environment mockEnv = mock(Environment.class);
         Type mockType = mock(Type.class);
         when(mockEnv.buildType(any())).thenReturn(mockType);
