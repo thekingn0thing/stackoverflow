@@ -19,9 +19,11 @@ public class ClassUnderTestAfterRefactoringWithFactoryTest {
     @InjectMocks
     public ClassUnderTestAfterRefactoringWithFactory classUnderTest;
 
-    @Mock SomethingClassFactory somethingClassFactory;
+    @Mock
+    SomethingClassFactory somethingClassFactory;
 
-    @Mock SomethingClass somethingClass;
+    @Mock
+    SomethingClass somethingClass;
 
     @Before
     public void setUp() throws Exception {
