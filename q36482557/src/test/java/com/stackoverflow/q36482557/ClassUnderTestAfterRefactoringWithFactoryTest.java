@@ -17,13 +17,13 @@ import static org.powermock.api.mockito.PowerMockito.when;
 public class ClassUnderTestAfterRefactoringWithFactoryTest {
 
     @InjectMocks
-    ClassUnderTestAfterRefactoringWithFactory classUnderTest;
+    private ClassUnderTestAfterRefactoringWithFactory classUnderTest;
 
     @Mock
-    SomethingClassFactory somethingClassFactory;
+    private SomethingClassFactory somethingClassFactory;
 
     @Mock
-    SomethingClass somethingClass;
+    private SomethingClass somethingClass;
 
     @Before
     public void setUp() throws Exception {
