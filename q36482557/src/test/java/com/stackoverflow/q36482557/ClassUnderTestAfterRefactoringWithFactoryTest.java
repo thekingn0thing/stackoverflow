@@ -17,7 +17,7 @@ import static org.powermock.api.mockito.PowerMockito.when;
 public class ClassUnderTestAfterRefactoringWithFactoryTest {
 
     @InjectMocks
-    public ClassUnderTestAfterRefactoringWithFactory classUnderTest;
+    ClassUnderTestAfterRefactoringWithFactory classUnderTest;
 
     @Mock
     SomethingClassFactory somethingClassFactory;
