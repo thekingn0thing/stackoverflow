@@ -9,44 +9,34 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>q36325757</artifactId>
+    <artifactId>com.stackoverflow.q45414070</artifactId>
 
     <description>
-        http://stackoverflow.com/questions/36325757/powermock-javaassist-failed-to-transform-class
+        https://stackoverflow.com/questions/45414070/powermockito-how-to-mock-abstract-method-in-enum/45536543?noredirect=1#comment78091847_45536543
     </description>
-
-    <properties>
-        <powermock.version>1.6.6</powermock.version>
-    </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.powermock</groupId>
-            <artifactId>powermock-api-mockito</artifactId>
-            <version>${powermock.version}</version>
-            <scope>test</scope>
+            <artifactId>powermock-api-mockito2</artifactId>
         </dependency>
         <dependency>
             <groupId>org.powermock</groupId>
             <artifactId>powermock-module-junit4</artifactId>
-            <version>${powermock.version}</version>
-            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
-            <version>1.10.19</version>
+            <version>2.8.9</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>nl.utwente.viskell</groupId>
-            <artifactId>viskell</artifactId>
-            <version>0.1</version>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
         </dependency>
     </dependencies>
+
 </project>

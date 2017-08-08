@@ -19,11 +19,15 @@
         <module>q36394482</module>
         <module>q36482557</module>
         <module>q38502419</module>
+        <module>q38695401</module>
+        <module>q42066631</module>
+        <module>powermock768</module>
+        <module>com.stackoverflow.q45414070</module>
     </modules>
 
 
     <properties>
-        <powermock.version>1.6.5</powermock.version>
+        <powermock.version>1.7.0</powermock.version>
     </properties>
     <build>
         <pluginManagement>
@@ -92,12 +96,32 @@
             </dependency>
             <dependency>
                 <groupId>org.powermock</groupId>
+                <artifactId>powermock-api-mockito</artifactId>
+                <version>${powermock.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.powermock</groupId>
+                <artifactId>powermock-api-mockito2</artifactId>
+                <version>${powermock.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.powermock</groupId>
                 <artifactId>powermock-api-easymock</artifactId>
                 <version>${powermock.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.powermock</groupId>
                 <artifactId>powermock-module-junit4</artifactId>
+                <version>${powermock.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.powermock</groupId>
+                <artifactId>powermock-classloading-xstream</artifactId>
+                <version>${powermock.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.powermock</groupId>
+                <artifactId>powermock-module-junit4-rule</artifactId>
                 <version>${powermock.version}</version>
             </dependency>
             <dependency>
