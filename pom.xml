@@ -13,7 +13,6 @@
         <module>q36086167</module>
         <module>q36129716</module>
         <module>q36268409</module>
-        <module>q36325757</module>
         <module>q36369634</module>
         <module>q36403048</module>
         <module>q36394482</module>
@@ -22,12 +21,12 @@
         <module>q38695401</module>
         <module>q42066631</module>
         <module>powermock768</module>
-        <module>com.stackoverflow.q45414070</module>
+        <module>q46212600</module>
     </modules>
 
 
     <properties>
-        <powermock.version>1.7.0</powermock.version>
+        <powermock.version>1.7.2</powermock.version>
     </properties>
     <build>
         <pluginManagement>
